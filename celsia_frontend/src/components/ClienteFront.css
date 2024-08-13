@@ -1,0 +1,56 @@
+/* src/modules/cliente/ClienteForm.css */
+.cliente-form-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .cliente-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .submit-button {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .cliente-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cliente-table th,
+  .cliente-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .cliente-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
